@@ -4,7 +4,7 @@ import '../styles/Header.css';
 const Header = () => {
   return (
     <div className='header-container'>
-      <h1>Todo Task Manager</h1>
+      <h1>To Do App React</h1>
     </div>
   );
 };
