@@ -1,0 +1,43 @@
+.add-task {
+  margin: 0.2rem;
+  /* border: 0.1rem solid gray; */
+  width: 33rem;
+  padding: 1rem;
+}
+
+.add-task form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+label,
+input,
+.add-task .add-task-button {
+  margin: 0.5rem;
+}
+
+label {
+  font-size: 2rem;
+}
+
+.add-task .add-task-button {
+  max-width: 50rem;
+  align-self: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 0.8rem 0;
+  border: 0.1rem solid black;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+input {
+  max-width: 50rem;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
