@@ -1,0 +1,39 @@
+.task {
+  background-color: rgb(31, 221, 212);
+  margin: 0.5rem;
+  padding: 1.3rem;
+  width: 27rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-description {
+  max-width: 20rem;
+  word-wrap: break-word;
+}
+
+.task .check-task,
+.task .delete-task {
+  background-color: #29802c;
+  color: rgb(0, 0, 0);
+  border: 0.1rem solid rgb(66, 44, 44);
+  box-shadow: 1px 1px 1px 1px rgba(20, 20, 20, 0.2);
+  outline: none;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.task button:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.task .check-task.fas.fa-check.hidden {
+  visibility: hidden;
+}

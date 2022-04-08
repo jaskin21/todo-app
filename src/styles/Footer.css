@@ -1,4 +1,8 @@
 .footer-container {
-  height: 5rem;
-  background-color: rgb(192, 192, 192);
+  background-color: gray;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
